@@ -1,6 +1,6 @@
 <div align="center">
 
-# 📡 Bluesky Campaign Engine
+# Bluesky Campaign Engine
 
 **Automated Bluesky campaign scheduling — AT Protocol + Cloudflare D1 + thread chaining**
 
@@ -22,13 +22,13 @@ Built and battle-tested running real investigative journalism campaigns on Blues
 
 ## Features
 
-- 🧵 **Thread Chaining** — proper reply chains with root/parent URI tracking
-- 🖼️ **Image Embedding** — automatic image upload + blob attachment
-- 🏷️ **Facet Support** — links, mentions, hashtags auto-detected and encoded
-- ⏱️ **D1-Based Scheduling** — fire at precise times via CF Cron
-- 🔒 **Fire-Once Lock** — D1 state prevents double-posting
-- 📦 **Campaign Archive** — completed campaigns archived, never deleted
-- 🌐 **REST API** — inject campaigns via `/inject`, check status via `/status`
+- **Thread Chaining** — proper reply chains with root/parent URI tracking
+- **Image Embedding** — automatic image upload + blob attachment
+- **Facet Support** — links, mentions, hashtags auto-detected and encoded
+- ⏱ **D1-Based Scheduling** — fire at precise times via CF Cron
+- **Fire-Once Lock** — D1 state prevents double-posting
+- **Campaign Archive** — completed campaigns archived, never deleted
+- **REST API** — inject campaigns via `/inject`, check status via `/status`
 
 ---
 
@@ -59,7 +59,7 @@ bsky-worker ──► AT Protocol API ──► Bluesky
   "posts": [
     {
       "post_index": 0,
-      "text": "🧵 THREAD: My investigation into X...",
+      "text": " THREAD: My investigation into X...",
       "image_url": "https://example.com/image.jpg",
       "scheduled_at": "2026-05-02T14:00:00Z"
     },
@@ -110,11 +110,11 @@ All posts are validated against Bluesky's 300-character limit (JS `length`, not 
 
 ---
 
-## ⚡ Support the Mission
+## Support the Mission
 
 This is free, ad-free, independent infrastructure — no VC, no gov funding, no strings. If it served you, a tip keeps it alive and funds the next tool.
 
 [![Donate via SkyGive](https://img.shields.io/badge/Donate_via_SkyGive-8A5CF6?style=for-the-badge&logoColor=white)](https://donate.skygive.app/)
 [![Lightning](https://img.shields.io/badge/tips@skygive.app-F7931A?style=for-the-badge&logo=lightning&logoColor=white)](https://donate.skygive.app/)
 
-<sub>🧡 Sovereign Lightning + on-chain via SkyGive. Your sats fund uptime, not ads.</sub>
+<sub> Sovereign Lightning + on-chain via SkyGive. Your sats fund uptime, not ads.</sub>
